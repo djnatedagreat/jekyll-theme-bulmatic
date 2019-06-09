@@ -1,0 +1,20 @@
+{
+  "name": "jekyll-theme-bulmatic",
+  "version": "0.1.0",
+  "description": "A bulma-based theme for Jekyll static sites",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bulma",
+    "jekyll",
+    "theme"
+  ],
+  "author": "DJ Nate Da Great",
+  "license": "MIT"
+}

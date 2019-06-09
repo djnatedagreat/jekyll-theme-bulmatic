@@ -1,0 +1,43 @@
+{% if item.type == "dropdown" %}
+	
+	<div class="navbar-item has-dropdown is-hoverable">
+        
+        <a class="navbar-link">
+          {{ item.title }}
+        </a>
+
+        <div class="navbar-dropdown">
+          {% for child in item.items %}
+            {% if child.type == "divider" %}
+				<hr class="navbar-divider">
+			{% else %}
+	          	<a class="navbar-item" href="{{ child.link }}">
+					{{ child.title }}
+				</a>
+			{% endif %}
+          {% endfor %}
+        </div>
+
+    </div>
+
+{% elsif item.type == "buttons" %}
+
+	<div class="navbar-item">
+        <div class="buttons">
+        	{% for child in item.items %}
+	            {% if child.type == "button" %}
+	            	<a class="button {{ child.classes | join " " }}" href="{{ child.link }}">
+	            		{{ child.title }}
+	          		</a>
+				{% endif %}
+          	{% endfor %}
+        </div>
+    </div>
+	
+{% else %}
+
+	<a class="navbar-item" href="{{ item.link }}">
+		{{ item.title}}
+	</a>
+
+{% endif %}

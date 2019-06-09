@@ -1,0 +1,10 @@
+#theme: jekyll-theme-slate
+theme: jekyll-theme-bulmatic
+title: Bulmatic 
+show_downloads: false
+description: A Bulma-based theme for Jekyll 
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+exclude: []
