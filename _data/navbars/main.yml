@@ -8,24 +8,31 @@ menu:
     items:
       - type: link
         title: Home
-        link: http://localhost:4000
+        link: /index.html
       - type: link
         title: Documentation
-        link: http://localhost:4000
+        link: /docs.html
       - type: dropdown
         title: More
         link: http://localhost:4000
         items:
           - type: link
-            title: Test 1
-            link: http://localhost:4000
+            title: Jekyll 
+            link: https://jekyllrb.com 
+            target: _blank
           - type: link
-            title: Test 2
-            link: http://localhost:4000
+            title: Bulma 
+            link: https://bulma.io/ 
+            target: _blank
+          - type: link
+            title: Illmatic 
+            link: https://en.wikipedia.org/wiki/Illmatic 
+            target: _blank
           - type: divider
           - type: link
-            title: Test 3
+            title: jekyll-theme-bullmatic 
             link: http://localhost:4000
+            target: _blank
   end:
     items:
       - type: buttons
