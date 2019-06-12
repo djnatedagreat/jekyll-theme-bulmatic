@@ -1,14 +1,11 @@
-#brand:
-#  link: http://localhost:4000
-#  img:
-#    src: https://bulma.io/images/bulma-logo.png
-#   classes: brand-logo
+brand:
+  link: / 
+  img:
+    src: /assets/images/bulmatic-logo.png
+    classes: brand-logo
 menu:
   start:
     items:
-      - type: link
-        title: Home
-        link: /index.html
       - type: link
         title: Documentation
         link: /docs.html
@@ -38,10 +35,10 @@ menu:
       - type: buttons
         items:
           - type: button
-            title: Test Btn
-            link: http://localhost:4000
+            title: GitHub 
+            link: https://github.com/djnatedagreat/jekyll-theme-bulmatic 
             classes: ['is-primary']
           - type: button
-            title: Btn 2
-            link: http://localhost:4000
+            title: Buy Me a Coffee 
+            link: https://buymeacoff.ee/djnatedagreat
             classes: ['is-light']
