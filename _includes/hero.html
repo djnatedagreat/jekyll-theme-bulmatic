@@ -1,4 +1,5 @@
-<section class="hero is-medium is-primary is-bold">
+{% if include.hero %}
+<section class="hero {{ include.hero.classes | default: 'is-medium is-primary is-bold' }}">
 	<div class="hero-body">
 	    <div class="container">
 	      <h1 class="title">
@@ -10,3 +11,4 @@
 	    </div>
 	</div>
 </section>
+{% endif %}

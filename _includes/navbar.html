@@ -1,5 +1,5 @@
 {% assign main_nav = site.data.navbars.main %}
-<nav id="nav-main" class="navbar" role="navigation" aria-label="main navigation">
+<nav id="nav-main" class="navbar is-light" role="navigation" aria-label="main navigation">
 	<div class="navbar-brand">
 		{% if main_nav.brand.link and main_nav.brand.img %}
 		<a class="navbar-item" href="{{ main_nav.brand.link }}">
@@ -27,9 +27,9 @@
 	{% if main_nav.menu.end %}
 
 		<div class="navbar-end">
-			{% for item in main_nav.menu.end.items %}
+		  {% for item in main_nav.menu.end.items %}
 		      {% include navbar-item.html item=item %}
-		    {% endfor %}
+	    	  {% endfor %}
 		</div>
 		
 	{% endif %}

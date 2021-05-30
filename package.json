@@ -4,7 +4,9 @@
   "description": "A bulma-based theme for Jekyll static sites",
   "main": "index.js",
   "dependencies": {
-    "bulma": "^0.7.5"
+    "bulma": "^0.7.5",
+    "jquery": "^3.4.1",
+    "vue": "^2.6.10"
   },
   "devDependencies": {},
   "scripts": {
